@@ -11,7 +11,7 @@ export default function Card() {
       <p className="cardRating">
         <img src={starIcon} alt="" className="starIcon" />
         <span className="cardRatingScore">5.0</span>
-        <span className="cardCountryReviews">(30) . USA</span>
+        <span className="cardCountLocation">(30) . USA</span>
       </p>
 
       <p className="cardTitle">Life lessons with Katie Zaferes</p>

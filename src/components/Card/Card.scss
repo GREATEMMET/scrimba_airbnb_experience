@@ -1,0 +1,56 @@
+.card {
+  width: 178px;
+  flex: 0 0 178px;
+  position: relative;
+}
+
+.cardImg {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.cardRating {
+  display: flex;
+  gap: 5px;
+  align-items: flex-end;
+  font-size: 12px;
+  font-weight: 300;
+  font-family: Poppins;
+  line-height: 13px;
+  margin-bottom: 4px;
+
+  .starIcon {
+    width: 14px;
+  }
+
+  .cardCountryReviews {
+    color: #918e9b;
+  }
+}
+
+.cardTitle {
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 13px;
+  margin-bottom: 4px;
+}
+
+.cardPricing {
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 13px;
+  letter-spacing: 0em;
+  color: #222222;
+}
+
+.cardBadge{
+    background-color: rgba(255, 255, 255, 0.66);
+    position: absolute;
+    top: 0;
+    margin: 10px;
+    padding: 4px;
+    border-radius: 4px;
+    font-size: 10px;
+}

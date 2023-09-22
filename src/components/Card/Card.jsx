@@ -2,23 +2,23 @@ import React from "react";
 
 import "./Card.scss";
 import starIcon from "../../assets/png/star.png";
-import carImage from "../../assets/jpeg/image1.png";
 
-export default function Card() {
+
+export default function Card(props) {
   return (
     <div className="card">
-      <img src={carImage} alt="" className="cardImg" />
+      <img src={props.img} alt="" className="cardImg" />
       <p className="cardRating">
         <img src={starIcon} alt="" className="starIcon" />
-        <span className="cardRatingScore">5.0</span>
-        <span className="cardCountLocation">(30) . USA</span>
+        <span className="cardRatingScore">{props.rating}</span>
+        <span className="cardCountLocation">({props.reviewCount}) . {props.location}</span>
       </p>
 
-      <p className="cardTitle">Life lessons with Katie Zaferes</p>
+      <p className="cardTitle">{props.title}</p>
       <p className="cardPricing">
-        <b>From $136</b> / person
+        <b>From ${props.price}</b> / person
       </p>
-      <span className="cardBadge">SOLD OUT</span>
+      <span className="cardBadge">{props.badge}</span>
     </div>
   );
 }

@@ -10,11 +10,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100%;
 }
 
 .container {
   width: 550px;
-  max-width: 90%;
+  margin: 10%;
   background-color: white;
   border-radius: 8px;
 }

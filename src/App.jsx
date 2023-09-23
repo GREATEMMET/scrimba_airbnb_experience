@@ -3,18 +3,17 @@ import Card from "./components/Card/Card";
 import Header from "./components/Header/Header";
 import Hero from "./components/Hero/Hero";
 
-import img1 from './assets/jpeg/image1.png'
 
 
 function App() {
   return (
     <>
       <div className="container">
-        <Header/>
-        <Hero/>
+        <Header />
+        <Hero />
         <div className="cardContainer">
-          <Card 
-            img={img1}
+          <Card
+            img="../public/images/image1.png"
             rating={5.0}
             reviewCount={6}
             location={"Nairobi"}
@@ -22,8 +21,6 @@ function App() {
             price={136}
             badge="SOLD OUT"
           />
-
-         
         </div>
       </div>
     </>

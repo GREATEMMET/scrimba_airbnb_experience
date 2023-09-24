@@ -37,5 +37,18 @@ export default [
         },
         location: "Norway",
         openSpots: 3,
+    },
+    {
+        id: 4,
+        title: "Abuja Food Place",
+        description: "Experience the amzing cousines in Nigeria. Feel the culture and meet new friends.",
+        price: 78,
+        coverImg: "image4.jpg",
+        stats: {
+            rating: 4.7,
+            reviewCount: 4
+        },
+        location: "Nigeria",
+        openSpots: 34,
     }
 ]

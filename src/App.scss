@@ -16,8 +16,9 @@
 }
 
 .container {
-  width: 550px;
-  margin: 10%;
+  width: 100%;
+  max-width: 550px;
+  margin-inline: 10%;
   background-color: white;
   border-radius: 8px;
 }

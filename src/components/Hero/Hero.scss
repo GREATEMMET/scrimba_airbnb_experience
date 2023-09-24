@@ -4,14 +4,13 @@
 
 .heroImg {
   width: 100%;
-//   max-width: 395px;
-  display: inline-block;
+  max-width: 395px;
+  display: block;
   margin: auto;
 }
 
 .heroHeading {
   margin-block: 32px 16px;
-
   font-size: 36px;
   font-weight: 600;
   line-height: 40px;

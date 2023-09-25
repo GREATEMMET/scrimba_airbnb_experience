@@ -8,7 +8,7 @@ import cardData from "./data/cardData";
 const cardElement = cardData.map((data)=>{
   return (
   <Card 
-    id={data.id} 
+    key={data.id} 
     img={data.coverImg} 
     rating={data.stats.rating} 
     reviewCount={data.stats.reviewCount}
